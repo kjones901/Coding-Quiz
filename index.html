@@ -9,39 +9,35 @@
   </head>
 <body>
     <header>
-      <div id= "quiz-title">Coding Quiz</div>
-      <button id= "quiz-button">Start</button>
+      <div id="high-score">
+        <button class="button"><span>High Score</span></button>
+      </div>
+      <div id="timer-box">
+        <div id="timer-count">
+          <p>Score</p>
+          <p id="seconds">00</p>
+        </div>
+      </div>
     </header>
 
     <main>
-      <section>
-        <section>
-            <div id="timer-box">
-                <div id="timer-count">
-                    <h4>Seconds Remaining</h4>
-                </div>
-            </div>
-        </section>
+      <section id = "quiz-box">
+            <button class="button"><span>Start Quiz</span></button>
 
-        <section>
-            <div id="quiz-box">
+            <div>
                 <div id ="quiz-question"></div>
-                <div id ="quiz-answers">
+                  <div id ="quiz-answers">
                     <div id="answer-1"></div>
                     <div id="answer-2"></div>
                     <div id="answer-3"></div>
                     <div id="answer-4"></div>
                 </div>
             </div>
-        </section>
+      </section>
     
     
     </main>
-    <footer>
-        <div>
-        <button id= "high-score">See High Scores</button>
-        </div>
-    </footer>
+      
 
 
     <script src="assets/script.js"></script>

@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --light: rgb(77, 77, 224);
+}
+
+body {
+    font-family: Arial;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(214, 210, 210);
+}
+
+#timer-box {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    
+    color: var(--light);
+    text-align: center;
+    line-height: 0;
+    font-size: 30px;
+    padding: 10px;
+}
+
+#high-score {
+    position: fixed;
+    left: 10px;
+    top: 10px;
+    border-radius: 30px;
+    color: rgb(48, 48, 153);
+}
+
+
+
+#quiz-box {
+    position: relative;
+    top: 200px;
+    text-align: center;
+    justify-content: center;
+    max-width: 500px;
+    padding: 20px;
+    margin: auto;
+    height: 350px;
+    color: rgb(1, 1, 90);
+    border-radius: 30px;
+    background-color: rgb(255, 255, 255);
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    border-radius: 80px;
+    background-color: var(--light);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    width: 250px;
+    margin: 5px;
+  }
+  
+  .button :hover {
+    border-bottom: 2px solid;
+    transition: 0.08s;
+  }
