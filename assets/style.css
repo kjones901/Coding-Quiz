@@ -4,6 +4,7 @@
 
 :root {
     --light: rgb(77, 77, 224);
+    --dark: rgb(37, 37, 133);
 }
 
 body {
@@ -19,21 +20,19 @@ body {
     right: 10px;
     top: 10px;
     border-radius: 20px;
-    background-color: rgb(255, 255, 255);
-    
-    color: var(--light);
+    background-color: white;
+    color: var(--dark);
     text-align: center;
     line-height: 0;
     font-size: 30px;
     padding: 10px;
 }
 
-#high-score {
+#highscore {
     position: fixed;
     left: 10px;
     top: 10px;
     border-radius: 30px;
-    color: rgb(48, 48, 153);
 }
 
 
@@ -46,10 +45,15 @@ body {
     max-width: 500px;
     padding: 20px;
     margin: auto;
-    height: 350px;
-    color: rgb(1, 1, 90);
+    height: 450px;
+    color: var(--dark);
     border-radius: 30px;
     background-color: rgb(255, 255, 255);
+}
+
+#submit-button {
+    font-size: 15px;
+    padding: 5px 10px 5px 10px;
 }
 
 button {
@@ -57,15 +61,14 @@ button {
     border: none;
     border-radius: 80px;
     background-color: var(--light);
-    color: rgb(255, 255, 255);
+    color: white;
     text-align: center;
     font-size: 30px;
-    padding: 10px;
-    width: 250px;
+    padding: 8px 25px 8px 25px;
     margin: 5px;
   }
   
   .button :hover {
     border-bottom: 2px solid;
-    transition: 0.08s;
+    transition: 0.07s;
   }
