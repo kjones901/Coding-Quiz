@@ -37,18 +37,23 @@ body {
 
 
 
-#quiz-box {
-    position: relative;
-    top: 200px;
+.quiz-box {
+    position: absolute;
+    top: 25%;
+    left: 25%;
     text-align: center;
     justify-content: center;
-    max-width: 500px;
+    min-width: 500px;
     padding: 20px;
     margin: auto;
     height: 450px;
     color: var(--dark);
     border-radius: 30px;
     background-color: rgb(255, 255, 255);
+}
+
+#save-score {
+    visibility: hidden;
 }
 
 #submit-button {
@@ -72,3 +77,31 @@ button {
     border-bottom: 2px solid;
     transition: 0.07s;
   }
+
+
+#question-1 {
+    visibility: hidden;
+}
+
+#question-2 {
+    visibility: hidden;
+}
+
+#question-3 {
+    visibility: hidden;
+}
+
+#question-4 {
+    visibility: hidden;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#start-button {
+    text-align: center;
+    margin-top: 35%;
+}
